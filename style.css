@@ -1,0 +1,51 @@
+*{
+    font-family: manrope;
+}
+h1, h2, h3{
+    font-weight: 700;
+}
+.desktop-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.desktop-header {
+    padding: 20px 0px;
+    background: #F0D0AB;
+}
+.desktop-menu-container {
+
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+.desktop-menu-container a {
+    padding: 5px 30px;
+    letter-spacing: 8px;
+    color: #333;
+}
+img.profile-image {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 100%;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .first-section{
+    background: #F0D0AB;
+    height: 500px;
+  }
+  .heading-container span{
+    color: #006E60;
+  }
+.col-lg-7.heading-container {
+    display: flex;
+    place-items: center;
+}
+p.short-description span {
+    font-size: 19px;
+    font-weight: 700;
+}
