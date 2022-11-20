@@ -18,17 +18,21 @@
             <div class="container">
                 <div class="row"> 
                     <div class="col-lg-12">
-                        <div class="row">
+                        <div class="row header-column">
                             <div class="col-lg-4">
                             <a href="#"> <img class="desktop-logo" src="images/mridul_profile_flipped__1_-removebg-preview.png" /></a>
                             </div>
                             <div class="col-lg-8 desktop-menu-container">
                                 <nav class="desktop-nav-menu">
                                     <a href="index.html">HOME</a> 
-                                    <a href="about.html">ABOUT</a> 
-                                    <a href="projects.html">PROJECTS</a> 
-                                    <a href="more.html">MORE</a>
+                                    <a href="#" class="projects-link">PROJECTS</a> 
                                 </nav>
+                                <div id="nav-icon3">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
                             </div>
                         </div>
                         
@@ -37,25 +41,180 @@
             
             </div>
         </div>
+        <div class="mobile-menu-container" id="mobile-menu-container">
+            <nav class="mobile-nav-menu">
+                <div class="mobile-menu-items container">
+                    <a href="index.html">HOME</a> 
+                    <a href="#">PROJECTS</a> 
+                </div>
+                
+            </nav>
+        </div>
         <div class="first-section">
              <div class="container">
                 <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-lg-7 heading-container">
+                    <div class="row first-section-column">
+                        <div class="col-lg-7 first-section-first-column">
+                        <div class="heading-container">
                             <div>
                                 <h1>I'm <span>Mridul</span>.<br />I'm a Web Developer</h1>
-                                <p class="short-description">Professionally I'm a <span>WordPress</span> Developer with 2 years of experience.<br />Currently experimenting with <span>React</span> and <span>JavaScript</span></p>
+                                <p class="short-description">I'm a <span>WordPress</span> Developer with 2 years of experience.</p>
                             </div>
                         </div>
-                        <div class="col-lg-5">
+                        <a href="files/mridul_resume.pdf" download="Mridul-CV" target="_blank"><button class="download-cv-btn">Download CV</button></a>
+                        </div>
+                        <div class="col-lg-5 profile-image-container">
                             <img class="profile-image" src="images/mridul_profile_flipped__1_-removebg-preview.png" />
                         </div>
                        </div>
                 </div>
             </div>
         </div>
+        <div class="second-section" id="second-section">
+            <div class="container">
+                <h2 class="sub-heading">My <span>Skills</span></h2>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 heading-container second-section-first-column">
+                            <div class="experience-box">
+                                <h2 class="experience-box-heading">Front End Development</h2>
+                                <div class="exp-item">
+                                    <p class="item-heading">HTML</p>
+                                    <div class="progress-box">
+                                        <div class="progress html">
+                                           90%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exp-item">
+                                    <p class="item-heading">CSS</p>
+                                    <div class="progress-box">
+                                        <div class="progress css">
+                                           70%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exp-item">
+                                    <p class="item-heading">JavaScript</p>
+                                    <div class="progress-box">
+                                        <div class="progress javascript">
+                                           70%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exp-item">
+                                    <p class="item-heading">ReactJs</p>
+                                    <div class="progress-box">
+                                        <div class="progress react">
+                                           50%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exp-item">
+                                    <p class="item-heading">jQuery</p>
+                                    <div class="progress-box">
+                                        <div class="progress jquery">
+                                           70%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exp-item">
+                                    <p class="item-heading">Bootstrap</p>
+                                    <div class="progress-box">
+                                        <div class="progress bootstrap">
+                                           60%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                              
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="experience-box">
+                                <h2 class="experience-box-heading">Back End Development</h2>
+                                <div class="exp-item">
+                                    <p class="item-heading">PHP</p>
+                                    <div class="progress-box">
+                                        <div class="progress php">
+                                           65%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exp-item">
+                                    <p class="item-heading">MySQL</p>
+                                    <div class="progress-box">
+                                        <div class="progress mysql">
+                                           50%
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="exp-item">
+                                    <p class="item-heading">NodeJs</p>
+                                    <div class="progress-box">
+                                        <div class="progress node">
+                                           20%
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-    
+        </div>
+
+        <div class="third-section" id="third-section">
+            <div class="container">
+                <div class="col-lg-12">
+                    <h2 class="sub-heading"><span>Contact</span> Me</h2>
+                    <div class="row">
+                        <div class="col-lg-4">
+                           <div class="social-box">
+                            <img src="images/social-icons/icons8-circled-envelope-50.png" class="email-icon-img" />
+                                <p class="social-heading">E-mail</p>
+                                <p>mriduldamodaran9@gmail.com</p>
+                                <a href="mailto:mriduldamodaran@gmail.com">Send a Message</a>
+                           </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="social-box">
+                                <img src="images/social-icons/icons8-linkedin-48.png" />
+                                 <p class="social-heading">LinkedIn</p>
+                                 <p>Mridul Kumar P</p>
+                                 <a href="https://www.linkedin.com/in/mridul-kumar-p">Send a Message</a>
+                            </div>
+                         </div>
+                         <div class="col-lg-4">
+                            <div class="social-box">
+                                <img src="images/social-icons/icons8-whatsapp-48.png" />
+                                <p class="social-heading">WhatsApp</p>
+                                 <p>+91-9747308070</p>
+                                 <a href="https://api.whatsapp.com/send?phone=9747308070">Send a Message</a>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     
 </body>
+<footer class="footer-section">
+    <div class="container">
+        <p class="my-name-footer"><a href="">Mridul Damodaran</a></p>
+        <nav class="footer-menu">
+            <a href="index.html">Home</a> 
+            <a href="#second-section">Experience</a> 
+            <a href="#">Projects</a>
+            <a href="#third-section">Contact</a>
+        </nav>
+        <div class="social-footer">
+            <a href="https://www.linkedin.com/in/mridul-kumar-p"><img src="images/social-icons/linked-in-footer.png" /></a> 
+            <a href="https://github.com/mriduldamodaran"><img src="images/social-icons/github-footer.png" /></a>
+            <a href="https://www.instagram.com/mridul_damodaran/"><img src="images/social-icons/instagram-footer.png" /></a>
+              
+        </div>
+        <p class="copy-right">©Mridul. All rights Reserved.</p>
+    </div>
+</footer>
 </html>
