@@ -107,7 +107,7 @@ h2.experience-box-heading {
     color: #333;
     font-weight: 700;
     font-style: bold;
-    padding: 1%;
+    padding: 1px;
     text-align: right;
     font-size: 11x;
     border-radius: 15px;
@@ -430,6 +430,7 @@ a.projects-link::before{
     .progress {
         height: 25px;
         font-size: 13px;
+        padding: 1%;
     }
     .second-section-first-column {
         margin-bottom: 0px;
